@@ -1,0 +1,47 @@
+html * {
+    margin: 0%;
+    border: 0%;
+    }
+        *,
+    *::before,
+    *::after {
+     box-sizing: border-box;
+    }
+/* NÃO ALTERAR ESSAS PROPRIEDADES DO BODY */
+body {
+
+    font-weight: bold;
+    /* Altura em 100% do tamanho da janela */
+    height: 100vh;
+    /* Habilita o posicionamento Flexbox */
+    /* Transforma todos em filhos em flex itens */
+    display: flex;
+    /* Alinha os elementos na horizontal */
+    justify-content: center;
+    /* Alinha os elementos na vertical */
+    align-items: center;
+    background: linear-gradient(45deg, rgb(81, 206, 255), rgb(22, 155, 10) 100%);
+}
+
+img {
+    width: auto;
+    height: 40vh;
+    padding: 3vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
+    border: 0.2vh ridge rgba(0, 0, 0, 0.342);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.678);
+    width: 58vh;
+    justify-content: center;
+
+}
+input {
+    border-radius: 15px;
+    width: 50vh;
+    
+}
